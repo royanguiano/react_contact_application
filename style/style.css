@@ -1,0 +1,145 @@
+.search-bar {
+    margin: 20px; 
+    text-align: center; 
+}
+.search-bar input {
+    width: 75%;
+}
+.person-item img {
+    max-width: 64px;
+}
+.person-detail .details{
+    margin-top: 10px; 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+}
+.list-group-item{
+    cursor: pointer;
+}
+.list-group-item:hover{
+    background-color: #eee; 
+}
+
+.icon{
+    width: 30px; 
+    height: 30px; 
+}
+
+.media-object{
+    float: left;
+    padding: 2%;
+}
+.button-group{
+    height: 100px; 
+    margin-top: 50px;
+    padding: 10px;
+    padding-left: 32%;
+}
+.img-group{
+    padding-bottom: 15%;   
+}
+
+.panel{
+    width: 100%;
+    margin: 10px; 
+}
+.rightPanel{
+    width: 50%;
+    float: right;
+}
+.leftPanel{
+    width: 50%; 
+    float: left;
+}
+.details{
+    height: 600px; 
+}
+
+.personName {
+    font-family: 'roboto', sans-serif;
+    transition: all 0.3s ease-in-out;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.personDescription, .right-header, .left-header{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: 'RobotoDraft', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+.right-header, .left-header{
+    font-size: 20px;
+}
+.dd-wrapper{
+    float: right;
+}
+.userProfile{
+    width: 15%;
+}
+.usernameTitle{
+    font-size: 17px;
+    padding: 2%;
+}
+
+ /* mobile-large */
+ @media all and (max-width: 780px){
+    .person-detail .details {
+        margin-top: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin-bottom: 30px;
+        height: 700px;
+  }
+  .button-group {
+    padding: 10px;
+    margin: auto;
+    height: 75px;
+
+  }
+  .media-object {
+    float: none;
+    margin: auto;
+}
+.waves-effect{
+    margin-left: 12%;
+}
+.img-group{
+    padding-left: 20%;
+    padding-bottom: 1%;
+}
+.personName, .personDescription{
+    vertical-align: middle;
+    text-align: center;
+}
+.row .col.s6, .materialize-textarea{
+    width: 100%!important;
+}
+.input-field{
+    margin-left: 0%;
+}
+}
+/* tablet-large-landscape */
+@media all and (max-width: 1025px) and (orientation: landscape) { 
+.media-object{
+    float: none;
+    margin: auto;
+}
+.details{
+    height: 100%;
+}
+.img-group{
+    padding-bottom: 1%;
+    margin-left: 30%;
+}
+.button-group {
+    padding: 10px;
+    padding-left: 27%;
+    height: 75px;
+    margin-top: 1%;
+}
+}
